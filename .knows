@@ -1,0 +1,10 @@
+modules/module.py:
+	tests.test_something:TestSomething.test_something
+	tests.test_something:test_something
+tests/test_something_2.py:
+	tests.test_something_2:TestSomething.test_something
+tests/test_something.py:
+	tests.test_something:TestSomething.test_something
+	tests.test_something:test_something
+modules/module_2.py:
+	tests.test_something_2:TestSomething.test_something
